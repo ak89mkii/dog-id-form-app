@@ -130,4 +130,22 @@ body {
     .print-button {
         visibility: hidden;
     }
+
+    /* Adjust page margins */
+    @page {
+        margin: 0;
+    }
+
+    /* Optional: you can use a more specific page size */
+    .id-card {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Prevent default browser headers (URL, date, time, etc.) */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
 }
