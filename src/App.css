@@ -67,7 +67,7 @@ body {
 .dog-name {
     position: absolute;
     top: 0.5625in;  /* Moved up by 1/8 inch */
-    left: 30%;
+    left: 20%;
     transform: translateX(-50%) translateY(-1/8in);  /* Moved left and up by 1/8 inch */
     font-size: 14px;
     text-align: center;
@@ -76,7 +76,7 @@ body {
 .breed {
     position: absolute;
     top: 0.90625in;  /* Moved up by 1/8 inch */
-    left: 30%;
+    left: 20%;
     transform: translateX(-50%) translateY(-1/8in);  /* Moved left and up by 1/8 inch */
     font-size: 14px;
     text-align: center;
@@ -85,7 +85,7 @@ body {
 .member-name {
     position: absolute;
     top: 1.25in;  /* Moved up by 1/8 inch */
-    left: 30%;
+    left: 20%;
     transform: translateX(-50%) translateY(-1/8in);  /* Moved left and up by 1/8 inch */
     font-size: 14px;
     text-align: center;
@@ -93,8 +93,8 @@ body {
 
 .id-number {
     position: absolute;
-    top: 1.3in;
-    right: 0.25in;
+    top: 1.36in;
+    right: 0.35in;
     font-size: 14px;
 }
 
@@ -129,23 +129,5 @@ body {
     }
     .print-button {
         visibility: hidden;
-    }
-
-    /* Adjust page margins */
-    @page {
-        margin: 0;
-    }
-
-    /* Optional: you can use a more specific page size */
-    .id-card {
-        margin: 0;
-        padding: 0;
-    }
-
-    /* Prevent default browser headers (URL, date, time, etc.) */
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
     }
 }

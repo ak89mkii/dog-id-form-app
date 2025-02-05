@@ -25,7 +25,8 @@ const App = () => {
   return (
     <div className="container">
       
-      <h1 className="title">TDI ID Card Generator</h1>
+      <button onClick={handlePrint} className="print-button">Print ID Card</button>
+      <br></br>      
       <input type="file" accept="image/*" onChange={handleImageUpload} className="input-field" />
       <input type="text" placeholder="Dog's Name" value={dogName} onChange={(e) => setDogName(e.target.value)} className="input-field" />
       <input type="text" placeholder="Breed" value={breed} onChange={(e) => setBreed(e.target.value)} className="input-field" />
@@ -42,8 +43,6 @@ const App = () => {
         <p className="expiration">{expiration}</p>
       </div>
       
-      <button onClick={handlePrint} className="print-button">Print ID Card</button>
-      <br></br>
     </div>
   );
 };
