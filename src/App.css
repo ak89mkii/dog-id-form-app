@@ -67,7 +67,7 @@ body {
 .dog-name {
     position: absolute;
     top: 0.5625in;  /* Moved up by 1/8 inch */
-    left: 20%;
+    left: 30%;
     transform: translateX(-50%) translateY(-1/8in);  /* Moved left and up by 1/8 inch */
     font-size: 14px;
     text-align: center;
