@@ -64,31 +64,24 @@ body {
     border: 1px solid black;
 }
 
-.dog-name {
+.dog-name, .breed, .member-name {
     position: absolute;
-    top: 0.5625in;  /* Moved up by 1/8 inch */
-    left: 30%;
-    transform: translateX(-50%) translateY(-1/8in);  /* Moved left and up by 1/8 inch */
     font-size: 14px;
-    text-align: center;
+    text-align: center;  /* Center the text */
+    left: 40%;  /* Center the element horizontally within its parent */
+    transform: translateX(-50%);  /* Adjust horizontally */
+}
+
+.dog-name {
+    top: 0.5625in;  /* Moved up by 1/8 inch */
 }
 
 .breed {
-    position: absolute;
     top: 0.90625in;  /* Moved up by 1/8 inch */
-    left: 20%;
-    transform: translateX(-50%) translateY(-1/8in);  /* Moved left and up by 1/8 inch */
-    font-size: 14px;
-    text-align: center;
 }
 
 .member-name {
-    position: absolute;
     top: 1.25in;  /* Moved up by 1/8 inch */
-    left: 20%;
-    transform: translateX(-50%) translateY(-1/8in);  /* Moved left and up by 1/8 inch */
-    font-size: 14px;
-    text-align: center;
 }
 
 .id-number {
