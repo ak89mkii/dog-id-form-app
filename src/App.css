@@ -37,7 +37,7 @@ body {
     width: 3.375in;
     height: 2.125in;
     background-color: white;
-    border: 1px solid #000;
+    /* border: 1px solid white; */
     padding: 10px;
     background-size: cover;
     background-position: center;
@@ -57,10 +57,10 @@ body {
 
 .uploaded-photo {
     position: absolute;
-    top: 0.375in;  /* Shifted down by 1/8 inch */
+    top: 0.6in;  /* Shifted down by 1/8 inch */
     right: 0.25in;
-    width: 0.6875in;
-    height: 1in;
+    width: 0.75in;
+    height: 0.75in;
     border: 1px solid black;
 }
 
