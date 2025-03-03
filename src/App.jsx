@@ -25,6 +25,9 @@ const App = () => {
   return (
     <div className="container">
       
+      <h1>Dog ID Form Template App</h1>
+      <p>Developed by Ponder Code</p>
+      <p>NOTE: To easily resize or crop an image, go to <a href="https://www.resizepixel.com" target="_blank">ResizePixel.com</a> (not affiliated with Ponder Code)</p>
       <button onClick={handlePrint} className="print-button">Print ID Card</button>
       <br></br>      
       <input type="file" accept="image/*" onChange={handleImageUpload} className="input-field" />

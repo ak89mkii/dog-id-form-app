@@ -8,6 +8,14 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -115,6 +123,12 @@ body {
 
 @media print {
     .title {
+        visibility: hidden;
+    }
+    h1 {
+        visibility: hidden;
+    }
+    p {
         visibility: hidden;
     }
     .input-field {
